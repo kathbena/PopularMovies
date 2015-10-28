@@ -130,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
             return details;
         }
 
+        // Error logging and buffer reader is used from my Sunshine app sample project creation
         @Override
         protected ArrayList<MovieDetailDO> doInBackground(String... params) {
 
